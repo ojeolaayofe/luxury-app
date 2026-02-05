@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-heading" })
 
 export const metadata: Metadata = {
-  title: "Elite Motors - Premium Automotive Dealership",
+  title: "ESSS LIMO LLC",
   description: "Discover luxury vehicles and exceptional automotive services at Elite Motors",
   generator: "v0.app",
   icons: {
