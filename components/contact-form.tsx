@@ -125,8 +125,8 @@ export default function ContactForm() {
           template_id: "template_fwn7lz8", // Use a DIFFERENT template for ride bookings
           user_id: "SBJYWjJ6UyrzqVxoU", // Replace with your EmailJS public key
           template_params: {
-            //from_name: formData.fullName,
-            from_name: "ESS LIMO LLC",
+            from_name: formData.fullName,
+            //from_name: "ESS LIMO LLC",
             from_email: formData.email,
             phone: formData.phone,
             selected_vehicle: formData.selectedVehicle,
