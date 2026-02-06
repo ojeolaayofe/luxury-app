@@ -263,9 +263,7 @@ export default function ContactForm() {
                     <div>
                       <h3 className="font-semibold mb-2">Email Us</h3>
                       <p className="text-sm text-muted-foreground leading-relaxed break-all">
-                        info@esssliomllc.com
-                        <br />
-                        sales@esssliomllc.com
+                       esssllimo2025@gmail.com
                       </p>
                     </div>
                   </div>
