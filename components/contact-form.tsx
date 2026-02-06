@@ -135,7 +135,7 @@ export default function ContactForm() {
             destination: formData.destination || "Not specified",
             message: formData.message,
             form_type: "Ride Booking Request", // Identifies the form type
-            to_email: "ojeolaponle@gmail.com", // Replace with your Gmail address
+            to_email: "esssllimo2025@gmail.com", // Replace with your Gmail address
           },
         }),
       })
