@@ -165,8 +165,8 @@ const response = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
                   Prefer email? Drop us a message and we'll respond promptly with all the information you need.
                 </p>
                 <div className="bg-muted p-4 rounded-lg w-full mb-6">
-                  <p className="text-base font-bold text-primary break-all mb-2">info@esssliomllc.com</p>
-                  <p className="text-base font-bold text-primary break-all">sales@esssliomllc.com</p>
+                  {/* <p className="text-base font-bold text-primary break-all mb-2">info@esssliomllc.com</p> */}
+                  <p className="text-base font-bold text-primary break-all">esssllimo2025@gmail.com</p>
                 </div>
               </CardContent>
             </Card>
