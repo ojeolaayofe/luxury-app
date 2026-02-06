@@ -225,9 +225,7 @@ export default function ContactForm() {
                     <div>
                       <h3 className="font-semibold mb-2">Visit Us</h3>
                       <p className="text-sm text-muted-foreground leading-relaxed">
-                        123 Luxury Drive
-                        <br />
-                        Beverly Hills, CA 90210
+                        2006 Delilah Court, Bowie MD 20721
                       </p>
                     </div>
                   </div>
