@@ -42,7 +42,7 @@ export function Cars() {
     },
     {
       id: 2,
-      name: "Chevrolet Equinox",
+      name: "Chevrolet SUV",
       year: 2024,
       //price: "$150/hour",
       image: "/chevrolet-equinox-exterior.jpg",
