@@ -1,9 +1,3 @@
-# Redirect apex domain to www + HTTPS
-http://esssl.com/*   https://www.esssl.com/:splat   301!
-https://esssl.com/*  https://www.esssl.com/:splat   301!
-http://www.esssl.com/* https://www.esssl.com/:splat 301!
-
-# SPA routes fallback (ignore static files)
-# Only apply to paths that do not contain a dot (.) — skips .png, .jpg, .css, .js, etc.
-# 200 = Netlify serves index.html but does not redirect
+# SPA routes fallback
+# Only redirect paths that do not have a file extension
 /*   /index.html   200!   !*.*  
