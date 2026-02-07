@@ -3,6 +3,7 @@ http://esssl.com/*   https://www.esssl.com/:splat   301!
 https://esssl.com/*  https://www.esssl.com/:splat   301!
 http://www.esssl.com/* https://www.esssl.com/:splat 301!
 
-# SPA routes fallback (React / Next.js)
-# Ensures internal routes like /about or /contact load correctly
-/*   /index.html   200
+# SPA routes fallback (ignore static files)
+# Only apply to paths that do not contain a dot (.) — skips .png, .jpg, .css, .js, etc.
+# 200 = Netlify serves index.html but does not redirect
+/*   /index.html   200!   !*.*  
