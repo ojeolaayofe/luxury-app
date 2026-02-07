@@ -1,0 +1,8 @@
+# Redirect apex domain to www + HTTPS
+http://esssl.com/*   https://www.esssl.com/:splat   301!
+https://esssl.com/*  https://www.esssl.com/:splat   301!
+http://www.esssl.com/* https://www.esssl.com/:splat 301!
+
+# SPA routes fallback (React / Next.js)
+# Ensures internal routes like /about or /contact load correctly
+/*   /index.html   200
