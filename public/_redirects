@@ -1,3 +1,0 @@
-# SPA routes fallback
-# Only redirect paths that do not have a file extension
-/*   /index.html   200!   !*.*  
