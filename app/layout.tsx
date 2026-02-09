@@ -9,7 +9,7 @@ const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-heading" }
 
 export const metadata: Metadata = {
   title: "ESSS LIMO LLC",
-  description: "Discover luxury vehicles and exceptional automotive services at Elite Motors",
+  description: "Discover luxury vehicles and exceptional automotive services at ESSS LIMO LLC",
   generator: "v0.app",
   icons: {
     icon: [
